@@ -13,7 +13,7 @@ const SearchBar = ({ userName, handleClick, userRef }) => {
       <button onClick={handleClick} class="cssbuttons-io-button">
         {' '}
         Rechercher
-        <div class="icon">
+        <div className="icon">
           <svg
             height="24"
             width="24"
