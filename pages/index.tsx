@@ -31,13 +31,13 @@ export default function Home() {
   }, [userName]);
 
   if(!data) (
-  <p>No Profile data.</p>
+  <p>Aucun profil trouvé.</p>
   )
 
   return (
     <div className="min-h-screen bg-gray-50 py-7 dark:bg-[#1C1E21]">
       <Head>
-        <title>GitHub User Finder App</title>
+        <title>GitHub User Finder</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
