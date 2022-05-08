@@ -10,7 +10,7 @@ const SearchBar = ({ userName, handleClick, userRef }) => {
         placeholder="Renseigner un nom d'utilisateur GitHub"
         className="text-md dark:text-white-200 mt-1 w-[400px] rounded-md bg-gray-200 px-2 py-2 font-mono leading-6 placeholder-neutral-400 transition duration-300 ease-in focus:outline-none dark:bg-[#121212]"
       />
-      <button onClick={handleClick} class="cssbuttons-io-button">
+      <button onClick={handleClick} className="cssbuttons-io-button">
         {' '}
         Rechercher
         <div className="icon">
